@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4aa7e10612c5e0bddfff128b79df4ea",
+    "content-hash": "9ea48816e31163ff9f9dffbf1dccc1ba",
     "packages": [],
     "packages-dev": [
         {
@@ -67,6 +67,56 @@
                 "whoops"
             ],
             "time": "2018-03-03T17:56:25+00:00"
+        },
+        {
+            "name": "gilad-ehven/wordpress-plugin-integrator-for-debug-tools-type-one",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GiladEhven/wordpress-plugin-integrator-for-debug-tools-type-one.git",
+                "reference": "05bc29a6275a41e45f429e8902a1b3d8634adfee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GiladEhven/wordpress-plugin-integrator-for-debug-tools-type-one/zipball/05bc29a6275a41e45f429e8902a1b3d8634adfee",
+                "reference": "05bc29a6275a41e45f429e8902a1b3d8634adfee",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "filp/whoops": "~2.0",
+                "kint-php/kint": "^1.0",
+                "mockery/mockery": "~0.9"
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Gilad Ehven",
+                    "email": "gilad@ehven.com",
+                    "homepage": "https://gilad-ehven.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Automatically integrates Whoops into WordPress plugin.",
+            "homepage": "https://github.com/GiladEhven/wordpress-plugin-integrator-for-debug-tools-type-one",
+            "keywords": [
+                "error",
+                "exception",
+                "handling",
+                "library",
+                "plugin",
+                "throwable",
+                "whoops",
+                "wordpress",
+                "wp"
+            ],
+            "time": "2018-05-23T05:49:52+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
