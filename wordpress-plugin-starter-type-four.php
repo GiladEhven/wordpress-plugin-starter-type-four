@@ -47,8 +47,7 @@ $autoload_file = __DIR__ . '/vendor/autoload.php'; if ( file_exists( $autoload_f
 
 
 		add_action( 'loop_start', function() {
-			d( 'test' );
-			d($_SERVER);
+	//		d($_SERVER);
 		});
 
 		$whoops_error_page = new \Whoops\Handler\PrettyPageHandler();
