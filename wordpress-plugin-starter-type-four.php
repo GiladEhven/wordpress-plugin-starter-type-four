@@ -74,7 +74,7 @@ if ( class_exists( '\Whoops\Handler\PrettyPageHandler' ) ) {
 
 
 
-		func_num_argss();
+	//	func_num_argss();
 
 
 
