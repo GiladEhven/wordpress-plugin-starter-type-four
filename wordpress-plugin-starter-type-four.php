@@ -51,18 +51,6 @@ $autoload_file = __DIR__ . '/vendor/autoload.php'; if ( file_exists( $autoload_f
 			d($_SERVER);
 		});
 
-/*
-if ( class_exists( '\Whoops\Handler\PrettyPageHandler' ) ) {
-	$whoops_error_page = new \Whoops\Handler\PrettyPageHandler();
-	$whoops_error_page->setEditor( 'sublime' );
-
-	$whoops_app = new \Whoops\Run;
-	$whoops_app->pushHandler( $whoops_error_page );
-	$whoops_app->register();
-}
-*/
-//	add_action( 'registered_taxonomy', function() {
-
 		$whoops_error_page = new \Whoops\Handler\PrettyPageHandler();
 		$whoops_error_page->setEditor( 'sublime' );
 
@@ -70,11 +58,11 @@ if ( class_exists( '\Whoops\Handler\PrettyPageHandler' ) ) {
 		$whoops_app->pushHandler( $whoops_error_page );
 		$whoops_app->register();
 
-//	});
 
 
 
-	//	func_num_argss();
+
+
 
 
 
